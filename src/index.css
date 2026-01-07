@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import "tailwindcss";
 
 /* ============================================
@@ -5,6 +6,30 @@
    ============================================ */
 /* Add global custom styles here */
 
+@layer base {
+   * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      scrollbar-width: none;
+      font-family: 'Poppins', sans-serif;
+   }
+}
+
+@layer utilities {
+   .font-poppins {
+      font-family: 'Poppins', sans-serif;
+   }
+
+   .text-gradient {
+      @apply bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-red-500;
+   }
+
+   .bg-gradient-miami {
+      @apply bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600;
+   }
+}
 
 /* ============================================
    HOME PAGE STYLES
