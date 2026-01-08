@@ -9,7 +9,7 @@ const AboutSection = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, amount: 0.3 }}
                     transition={{ duration: 0.8, ease: "easeOut" }}
-                    className="mb-12 px-2 font-poppins font-normal text-sm sm:text-lg leading-relaxed tracking-normal text-center align-middle"
+                    className="mb-12 px-2 font-normal text-sm sm:text-lg leading-relaxed tracking-normal text-center align-middle"
                 >
                     Dive into the heart of VIT Bhopal with AdVlTya'25 - an electrifying blend of technology and culture. Crafted by the ingenious minds of VIT Bhopal students, AdVlTya'25 transcends the ordinary, presenting a dynamic showcase of innovation and creativity. Join us for an immersive experience where every moment sparks brilliance, turning the campus into a canvas of unbridled talent and celebration. AdVlTya'25 is more than an event; it's a journey where the extraordinary takes center stage, inviting you to witness and be part of the magic!
                 </motion.p>

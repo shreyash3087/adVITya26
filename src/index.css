@@ -13,12 +13,21 @@
       box-sizing: border-box;
       scroll-behavior: smooth;
       scrollbar-width: none;
+      font-family: 'Poppins', sans-serif;
    }
 }
 
 @layer utilities {
    .font-poppins {
       font-family: 'Poppins', sans-serif;
+   }
+
+   .text-gradient {
+      @apply bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-red-500;
+   }
+
+   .bg-gradient-miami {
+      @apply bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600;
    }
 }
 
@@ -50,7 +59,9 @@
    TEAM PAGE STYLES
    ============================================ */
 /* Add Team page specific custom styles here */
-
+.team-main-div{
+   padding: 34px 26px;
+}
 
 /* ============================================
    SPONSOR PAGE STYLES
@@ -62,3 +73,4 @@
    COMPONENT STYLES
    ============================================ */
 /* Add reusable component custom styles here */
+
